@@ -1,0 +1,8 @@
+import time
+
+print("The maximum tries available in this game are: 6\n\n")
+
+#Print the first question
+user_choosen_word = input("Please enter a word: ", upper())
+print(user_choosen_word)
+time.sleep(1)

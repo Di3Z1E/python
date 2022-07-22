@@ -1,0 +1,9 @@
+x = (input("Enter 3 user inputs: ").split())
+
+a = int(x[0])
+b = int(x[1])
+c = int(x[2])
+
+print(f"A: {a}, B: {b}, C: {c}")
+
+input()

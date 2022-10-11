@@ -65,6 +65,7 @@ if job == "yes":
     years_Job = float(input(""))
     if years_Job >= age:
         print("\nYou enterd a bigger number of years then your own age, don't lie")
+        exit()
     elif job == "no":
         print("would you like me to suggest to you how to start?")
         job_seek = input("")
@@ -101,7 +102,7 @@ else:
 
 if job == "yes":
     print("\nI was really happy to finally meet you", f_name, l_name, ", I also likes", fav_food, 
-    """. \n I can see you have some really nice amount of expeirnce at""", job_indstury,
+    """\nI can see you have some really nice amount of expeirnce at""", job_indstury,
     "you stiil young! just a", age, "years old, there is so much you can do!")
 elif job == "no":
     print("\nI was really happy to finally meet you", f_name, l_name, ", I also likes", fav_food, """ \nI can see you still don't have a job,

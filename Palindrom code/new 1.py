@@ -7,5 +7,3 @@ else:
       print("Not a palindrome")
 
 time.sleep(3)
-
-DAD
